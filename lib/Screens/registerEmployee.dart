@@ -113,8 +113,8 @@ class MyAlertDialog extends StatelessWidget {
   final List<Widget> actions;
 
   MyAlertDialog({
-    required this.title,
-    required this.content,
+    this.title = "",
+    this.content = "",
     this.actions = const [],
   });
 
